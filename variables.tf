@@ -10,6 +10,9 @@ variable "network" {}
 
 variable "instancetype" {}
 
-variable "ami" {}
+variable "ami" {
+  type = string
+  default = "ServiceNow_*"
+}
 
 variable "keyname" {}
