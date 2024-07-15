@@ -1,6 +1,6 @@
 data "aws_ami" "image" {
   most_recent      = true
-  owners           = ["amazon"]
+  owners           = ["565710867928"]
 
   filter {
     name   = "name"
