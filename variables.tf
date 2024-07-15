@@ -12,7 +12,7 @@ variable "instancetype" {}
 
 variable "ami" {
   type = string
-  default = "ServiceNow_*"
+  default = "ServiceNow_Redhat9_Image_2024052801"
 }
 
 variable "keyname" {}
